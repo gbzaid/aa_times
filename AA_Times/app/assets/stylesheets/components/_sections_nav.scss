@@ -1,0 +1,22 @@
+.sections-nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+.sections-nav {
+  border-bottom: 1px solid $light-gray;
+}
+
+.sections-nav li {
+  padding: 15px;
+  font-size: 13px;
+}
+
+
+.sections-nav li a:hover {
+    color: $light-gray;
+}
+
+.sections-nav li:last-child:hover {
+  border-bottom: 1px solid black;
+}
