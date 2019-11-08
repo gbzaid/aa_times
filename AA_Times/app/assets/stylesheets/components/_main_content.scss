@@ -1,0 +1,85 @@
+.col-2-1 ul {
+  list-style-type: disc;
+}
+
+.col-2-1 ul li {
+  padding: 10px;
+}
+
+.col-3-1 ul li {
+  padding: 5px;
+
+}
+
+
+
+
+.col-2-1 h1 {
+  font-size: 24px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.col-2-1 h2 {
+  font-size: 14px;
+  color: $gray;
+}
+
+.col-2-1 > a {
+  color: $blue;
+}
+
+.col-2-1 > a:hover {
+  border-bottom: 1px solid $blue;
+}
+
+.col-2-2 h1 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+.col-2-2 h1:hover {
+  font-style: underline;
+}
+
+.col-2-2 h2 {
+  font-size: 13px;
+  color: $gray;
+  margin: 10px 0;
+}
+
+.col-1-2 > header {
+  display: flex;
+  justify-content: center;
+}
+.col-3-0 h2 {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.col-3-1 h2 a:hover {
+  font-style: underline;
+}
+
+.col-3-0 h3 {
+  font-weight: normal;
+}
+
+.col-3-0 li {
+  list-style-type: disc;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+form {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.subscribe-text {
+  width: 80%;
+  height: 34px;
+  border: 1px solid $dark-gray;
+}
